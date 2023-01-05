@@ -57,7 +57,7 @@ header {
 .donate-title{
   font-weight: 800;
   text-align: center;
-  margin-bottom: 3px;
+  margin-bottom: 30px;
   font-size: 35px;
 }
 .donate-description{
@@ -65,6 +65,7 @@ header {
   font-size: 18px;
   text-align: center;
   font-weight: 100;
+  margin-bottom: 30px;
 }
 .donate-money ul{
   display: flex;
@@ -103,6 +104,89 @@ header {
 .btn{
   margin-bottom: 80px;
   text-align: center;
+}
+.donate-plan-description{
+  color: #757575;
+  margin-bottom: 30px;
+}
+.donate-type-container{
+  display: flex;
+  gap: 20px;
+}
+.type-item-food{
+  background-color: rgba(188, 228, 253, 0.519);
+  padding: 20px 15px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+
+}
+
+.type-item-shelter{
+  background-color: rgba(233, 180, 174, 0.373);
+  padding: 20px 15px;
+  border: 2px solid royalblue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+}
+.type-item-education{
+  background-color: #dfdd90;
+  padding: 25px 15px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+}
+.donate-type-container img{
+  padding: 20px 15px;
+}
+.donate-plan-container .donate-title{
+  margin-bottom: 20px;
+}
+ /* if donate type container type item food hover */
+
+.donate-type-container .type-item-food:hover{
+  background-color: #5452f5;
+  color: white;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(130, 147, 255, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+/* if donate type container type item shelter hover */
+.donate-type-container .type-item-shelter:hover{
+  background-color: #5f0a58;
+  color: white;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(130, 147, 255, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+/* if donate type container type iteam edacution hover  */
+.donate-type-container .type-item-education:hover{
+  background-color: #026154;
+  color: white;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(130, 147, 255, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.donate-depend-container{
+  display: flex;
+  gap: 35px;
+  margin-top: 100px;
+}
+.depend-content{
+ padding: 0px 10px;
+}
+.depend-image img{
+width: 500px;
+height: 400px;
+border-radius: 10px;
+}
+.depend-title{
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 15px;
 }
 
   
