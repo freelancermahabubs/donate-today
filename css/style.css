@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 100%;
+  background-image: url('../images/donation5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  filter: blur(0.70px);
+  -webkit-filter: blur(0.10px);
+  background: linear-gradient rgba(2, 26, 26, 0.4);
+}
+
+.banner {
+  padding: 180px 400px;
+}
+.banner .banner-title{
+  font-weight: 700;
+  font-size: 3.5em;
+  text-transform: capitalize;
+}
+.text-primary{
+  color: #FD6E0A;
+}
+.banner .banner-description{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.btn-primary{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  border: 3px solid #FD6E0A;
+  padding: 15px 30px;
+  border-radius: 52px;
+  background: rgba(0, 32, 243, 0.8);
+  cursor: pointer;
+  margin-top: 10px
+}
+.btn-primary:hover{
+  box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+  transition: all 0.5 ease-in-out 0.2s;
+  outline: none;
+}
+.donate-container {
+  text-align: center;
+  margin-top: 10px;
+  padding: 100px 300px;
+  position: absolute;
+}
+.donate-title{
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3px;
+  font-size: 35px;
+}
+.donate-description{
+  color: #757575;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 100;
+}
+.donate-money ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+.donate-money li{
+  list-style: none;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+.donate-money li:hover{
+  background-color: #FD6E0A;
+  color: white;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(130, 147, 255, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.donate-extra {
+  margin-top: 40px;
+  padding: 20px 0;
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.btn{
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+  
+
+
+
