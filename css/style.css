@@ -14,6 +14,7 @@ header {
   filter: blur(0.70px);
   -webkit-filter: blur(0.10px);
   background: linear-gradient rgba(2, 26, 26, 0.4);
+  background-blend-mode: multiply;
 }
 
 .banner {
